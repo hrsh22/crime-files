@@ -43,7 +43,7 @@ import { generatePrivateKey, privateKeyToAccount } from "viem/accounts";
  */
 
 // Configure a file to persist the agent's Smart Wallet + Private Key data
-const WALLET_DATA_FILE = "wallet_data.txt";
+const WALLET_DATA_FILE = "/tmp/wallet_data.txt";
 
 type WalletData = {
   privateKey: Hex;
