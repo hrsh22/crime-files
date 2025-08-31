@@ -8,7 +8,8 @@ const nextConfig = {
     unoptimized: true,
   },
   serverExternalPackages: [
-    "twitter-api-v2"
+    "twitter-api-v2",
+    "bls-eth-wasm"
   ],
 };
 
